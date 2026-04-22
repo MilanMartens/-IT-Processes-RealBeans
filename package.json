@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "node ./node_modules/next/dist/bin/next dev",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "start": "node ./node_modules/next/dist/bin/next start",
+    "lint": "node ./node_modules/next/dist/bin/next lint",
+    "cypress:open": "node ./node_modules/cypress/bin/cypress open",
+    "cypress:run": "node ./node_modules/cypress/bin/cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^15.14.0"
+  }
+}

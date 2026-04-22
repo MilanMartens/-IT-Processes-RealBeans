@@ -5,9 +5,10 @@
     "start": "node ./node_modules/next/dist/bin/next start",
     "lint": "node ./node_modules/next/dist/bin/next lint",
     "cypress:open": "node ./node_modules/cypress/bin/cypress open",
-    "cypress:run": "node ./node_modules/cypress/bin/cypress run"
+    "cypress:run": "node ./node_modules/cypress/bin/cypress run",
+    "cypress:record": "cypress run --record --key 35344a38-4d37-4590-a221-63983f949dbd"
   },
   "devDependencies": {
-    "cypress": "^15.14.0"
+    "cypress": "^15.14.1"
   }
 }
